@@ -1,0 +1,46 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07),
+    0 15px 4px 0 rgba(50, 50, 93, 0.01);
+}
+
+.card picture {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.card .info {
+  padding: 10px;
+}
+
+.card h1,
+.card p {
+  margin: 0px;
+}
+
+.card h3 {
+  margin: 0px 0px 10px 0px;
+  color: grey;
+}
+
+.card .margin_top {
+  margin-top: 20px;
+}
+
+.card .price {
+  font-size: 20px;
+  color: orange;
+  font-weight: 800;
+  margin-top: 20px;
+}
